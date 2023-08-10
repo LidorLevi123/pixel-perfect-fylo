@@ -18,6 +18,8 @@
         display: grid;
         grid-template-columns: 30px auto;
         grid-template-rows: repeat(2, auto);
+        column-gap: em(8px);
+        row-gap: em(4px);
         align-items: end;
 
         img {
