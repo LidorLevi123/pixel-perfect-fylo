@@ -1,0 +1,10 @@
+.hero {
+    justify-self: center;
+    
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    
+    row-gap: em(38px);
+    margin-block-start: 5em;
+}

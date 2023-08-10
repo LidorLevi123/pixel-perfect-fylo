@@ -1,0 +1,16 @@
+.review-list {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 40px;
+    margin-block: em(179px);
+    margin-inline: auto;
+    li {
+        position: relative;
+        .quotes {
+            position: absolute;
+            top: -16%;
+            left: -3%;
+            z-index: 1;
+        }
+    }
+}

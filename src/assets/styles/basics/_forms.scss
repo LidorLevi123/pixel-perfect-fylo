@@ -1,0 +1,14 @@
+button {
+    border: 0;
+    border-radius: 2em;
+    background: linear-gradient(to right, $clr4, $clr2);
+    color: $clr3;
+    padding-inline: em(95px);
+    padding-block: em(19px);
+}
+
+form > * {
+    display: block;
+    width: 200px;
+    margin: 10px 0px;
+}

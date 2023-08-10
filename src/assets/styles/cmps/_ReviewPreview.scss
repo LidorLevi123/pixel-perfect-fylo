@@ -1,0 +1,41 @@
+.review-preview {
+    display: grid;
+    gap: 28px;
+
+    background-color: $clr6;
+    height: 200px;
+    padding-block: em(40px);
+    padding-inline: em(25px);
+
+    z-index: 2;
+    p {
+        letter-spacing: 0.5px;
+        font-size: em(14px);
+        line-height: 21px;
+    }
+
+    .user {
+        display: grid;
+        grid-template-columns: 30px auto;
+        grid-template-rows: repeat(2, auto);
+        align-items: end;
+
+        img {
+            width: 24px;
+            border-radius: 50%;
+            grid-row: 1 / -1;
+        }
+        
+        h4 {
+            font-size: em(10px);
+            letter-spacing: 0.5px;
+            line-height: 12px;
+        }
+
+        small {
+            font-size: em(8px);
+            letter-spacing: em(0.57px);
+            line-height: 10px;
+        }
+    }
+}
